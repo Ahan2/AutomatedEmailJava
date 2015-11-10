@@ -11,8 +11,8 @@ Well, I needed my project to be completely client side (no servers, nothing), if
 -------------------
   ![alt tag](https://raw.githubusercontent.com/Ahan2/AutomatedEmailJava/master/assets/login.png)
     
-    Enter your login ID/Username in the first send("")
-    Enter your password in the second send("")
+    Enter your login ID/Username in the first send(""). Must be in Base64.
+    Enter your password in the second send(""). Must be in Base64.
 -------------------
   ![alt tag](https://raw.githubusercontent.com/Ahan2/AutomatedEmailJava/master/assets/email.png)
     
@@ -28,5 +28,6 @@ Well, I needed my project to be completely client side (no servers, nothing), if
     
     This is pretty self-explanatory 😛
     
-#Email format reference(s):
-https://www.cs.cf.ac.uk/Dave/PERL/node175.html
+#Reference(s):
+Email format:- https://www.cs.cf.ac.uk/Dave/PERL/node175.html
+Base64 encoder:- https://www.base64encode.org
